@@ -592,7 +592,7 @@ ul {
 marquee {
     position: fixed;
     z-index: 99;
-    top: 67px;
+    top: 66px;
     background: linear-gradient(5deg, rgb(0 0 0), rgb(82 80 225 / 92%));
     overflow: hidden;
     width: 100%
@@ -1514,7 +1514,7 @@ h2 {
     padding-bottom: 61px
 }
 
-.faq-container::before {
+/* .faq-container::before {
     content: '';
     background: linear-gradient( rgb(0 0 0 / 0%), rgb(96 89 239)), url(../images/hero/wave.jpg);
     background-repeat: no-repeat;
@@ -1525,7 +1525,7 @@ h2 {
     left: -1rem;
     height: 53rem;
     z-index: -2;
-}
+} */
 
 .faq {
     width: 40%;
