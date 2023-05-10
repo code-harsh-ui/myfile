@@ -405,7 +405,8 @@ ul {
 }
 
 .header .navbar-brand img {
-    width: 3rem
+    width: 9rem;
+    transform: scale(1.3);
 }
 
 .logo-title {
@@ -747,13 +748,13 @@ marquee::before {
     padding: 0px 37px
 }
 
-.hero-area .hero-content .main-logo::after {
+/* .hero-area .hero-content .main-logo::after {
     content: "CODE CORE X";
     display: block;
     color: white;
     letter-spacing: 5px;
     margin-left: 8px;
-}
+} */
 
 .hero-area .hero-content h1 {
     font-weight: 700;
@@ -1695,17 +1696,16 @@ h2 {
     margin-bottom: 20px
 }
 
-.footer .single-footer.f-about .logo a::after {
+/* .footer .single-footer.f-about .logo a::after {
     content: "CODE CORE X";
     display: block;
     color: white;
     margin-left: -1px;
-}
+} */
 
 .footer .single-footer.f-about .logo img {
-    width: 96px
+    width: 15rem;
 }
-
 .footer .single-footer.f-about p {
     color: #fff;
     margin-top: 20px;
