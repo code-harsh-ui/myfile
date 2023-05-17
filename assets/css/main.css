@@ -1946,7 +1946,7 @@ only screen and (min-width:1400px) {
         padding: 4px 0!important
     }
     .header .navbar-brand img {
-        width: 63px;
+        width: 13rem;
     }
     .logo-title {
         margin: -5px 0px;
@@ -2143,7 +2143,7 @@ only screen and (min-width:1400px) {
         width: 26%;
     }
     marquee {
-        top: 66px
+        top: 69px
     }
     marquee p {
         font-size: 10px;
@@ -2152,7 +2152,7 @@ only screen and (min-width:1400px) {
 
 @media (max-width:767px) {
     .header .navbar-brand img {
-        width: 45px
+        width: 11rem;
     }
 }
 
