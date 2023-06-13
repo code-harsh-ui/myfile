@@ -58,7 +58,7 @@
                                     <li class="contact nav-item"> <a href="#contact" aria-label="Toggle navigation">Contact</a> </li>
                                 </ul>
                             </div>
-                            <div class="button"> <a href="#getQuote" class="btn">REQUEST A QUOTE</a> </div>
+                            <div class="button"> <a href="#contact" class="btn">REQUEST A QUOTE</a> </div>
                             <!-- <div class="nation-flag"> <img src="./assets/images/logo/india.ico" alt=""> <img src="./assets/images/logo/uk.svg" alt=""> <img src="./assets/images/logo/icons8-usa-48.png" alt=""> </div>-->
                         </nav>
                     </div>
@@ -84,13 +84,12 @@
                         <h1 class="wow fadeInUp" data-wow-delay=".4s"> <span>Website design</span> AND <span>Digital Marketing</span> </h1>
                         <h5 class="wow fadeInUp" data-wow-delay=".8s">Empowering Businesses via Innovative Software</h5>
                         <p class="wow fadeInUp" data-wow-delay=".6s">With customer experience at the core</p>
-                        <div class="button wow zoomIn" data-wow-delay="1s"> <a href="#getQuote"><i class="lni lni-angle-double-down"></i>Get Quote</a> </div>
+                        <div class="button wow zoomIn" data-wow-delay="1s"> <a href="#cap"><i class="lni lni-angle-double-down"></i>Get Quote</a> </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <div id="getQuote" style="position: absolute; bottom: 100px; left: 0;"></div>
     <section id="cap" class="domain-search">
         <div class="container">
             <div class="inner-cotainer"> <img class="svg svg_1" src="./assets/images/hero/sssurf.svg" alt=""> <img class="svg svg_2" src="./assets/images/hero/sssurf.svg" alt="Design">
@@ -453,7 +452,7 @@
                                     <li>Email: hello@webybuild.com</li>
                     
                                 </ul>
-                                <button class="contact" id="main-button">click to get in touch</button>
+                                <button class="contact-social" id="main-button">click to get in touch</button>
                                 <div class="social-media-banner">
                                     <a href="https://twitter.com/WEBYBUILD" target="_blank"><i class="fa fa-twitter"></i></a>
                                     <a href="https://www.facebook.com/webybuild" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -464,7 +463,7 @@
                                     <input id="name" type="text" placeholder="name">
                                     <input id="email" type="email" placeholder="email">
                                     <textarea id="comment" type="text" placeholder="Message"></textarea>
-                                    <button class="contact">send</button>
+                                    <button class="contact-social">send</button>
                               </form>
                               </div>
                     </div>
@@ -472,7 +471,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer section">
+    <footer style="padding-top: 0;" class="footer section">
         <div class="footer-top">
             <div class="container">
                 <div class="inner-content">
@@ -485,7 +484,7 @@
                                 <p>WEBYBUILD is a full-service digital marketing agency and an affordable web development company with designers and hustlers who eat, drink & sleep digital design and marketing.</p>
                                 <a class="call" href="mailto:hello@webybuild.com" title="Mail"><i class="fa fa-envelope"></i> hello@webuild.com</a>
                                 <div class="payments"> <img src="assets/images/footer/card.png" alt="Payment Card"> </div>
-                                <p class="copyright-text">© 2023 All rights reserved.<br> Developed by <a href='mailto:hello@webybuild.com' target="_blank" title="Email">WEBYBUILD</a> </p>
+                                <p class="copyright-text">© 2023 All rights reserved.<br>Designed and Developed by <a href='mailto:hello@webybuild.com' target="_blank" title="Email">WEBYBUILD</a> </p>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-6 col-12">
@@ -596,7 +595,7 @@
     <script>
         $(document).ready(function()
 {
-    $('.contact').click(function (e) 
+    $('.contact-social').click(function (e) 
     {
         $('.card').toggleClass('active');
         $('.banner').toggleClass('active');
@@ -607,12 +606,12 @@
         if (buttonText === 'back')
         {
             buttonText = 'click to get in touch';
-            $('button.contact#main-button').text(buttonText);
+            $('button.contact-social#main-button').text(buttonText);
         }
         else
         {
             buttonText = 'back';
-            $('button.contact#main-button').text(buttonText);
+            $('button.contact-social#main-button').text(buttonText);
         }
     });
 });

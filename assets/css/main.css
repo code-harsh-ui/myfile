@@ -1775,7 +1775,7 @@ h2 {
   color: #c7d0e1;
 }
 
-button.contact {
+button.contact-social {
   margin: 0 auto;
   text-align: center;
   margin-top: -15px;
@@ -1795,12 +1795,12 @@ button.contact {
   -ms-transition: all 0.3s ease-in-out;
 }
 
-button.contact:hover {
+button.contact-social:hover {
   cursor: pointer;
   background-color: #7c7afb;
 }
 
-button.contact:focus {
+button.contact-social:focus {
   outline: 0;
 }
 
@@ -1934,8 +1934,12 @@ button.contact:focus {
 }
 
 .footer .single-footer.f-about {
-  padding-right: 30px;
-  margin-top: -73px;
+    padding-right: 30px;
+    margin-top: 14px;
+}
+
+.footer .single-footer{
+    margin-top: 7rem;
 }
 
 .footer .single-footer.f-about .logo {
@@ -3019,9 +3023,10 @@ button.contact:focus {
 }
 
 @media (max-width: 767px) {
-  .footer .single-footer.f-about {
-    padding: 0;
-  }
+    .footer .single-footer.f-about {
+        padding: 0;
+        margin-top: -47px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3052,6 +3057,7 @@ button.contact:focus {
   only screen and (min-width: 1400px) {
   .footer .single-footer.latest-news {
     padding-left: 30px;
+    margin-top: 3rem;
   }
 }
 
