@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="canonical" href="https://webybuild.com/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,17 +32,14 @@
             <div class="preloader-icon"> <span></span> <span></span> </div>
         </div>
     </div>
-    <marquee behavior="scroll" direction="left" scrollamount="6">
+    <marquee behavior="scroll" direction="left" scrollamount="8" onmouseover="this.stop();" onmouseout="this.start();" loop="100" scrolldelay="100">
         <p>We are a India based IT & Designing Company dealing in a comprehensive set of services ranging from developing high end sophisticated Single Page Websites using latest technology to multi page E-commerce websites. Since, we provide all the services
             in-house, WEBYBUILD is the last IT Company you will need to collaborate with.</p>
-        <p>Contact us: +91-9672862301.</p>
-        <p style="text-transform:lowercase;" >Email: infowebybuild@gmail.com</p>
-        <p>Whatsapp: +91-8809867438</p>
     </marquee>
-    <a title="Call Us" class="floatCall" href="tel:+919672862301">
+    <!-- <a title="Call Us" class="floatCall" href="tel:+">
         <lord-icon class="float-call" src="https://cdn.lordicon.com/hcndxtmn.json" trigger="loop" colors="primary:#5250e1" state="hover-phone-ring-signal">
         </lord-icon>
-    </a>
+    </a> -->
     <header class="header navbar-area">
         <div class="container">
             <div class="row align-items-center">
@@ -71,7 +69,7 @@
     <nav class="social">
         <ul social-ul>
             <li><a title="Facebook" href="https://www.facebook.com/webybuild" target="_blank"><i class="lni lni-facebook-filled" ></i><span>Facebook</span></a></li>
-            <li><a title="Twitter" href="https://twitter.com/CODECOREX" target="_blank"><i class="lni lni-twitter-filled"></i><span>Twitter</span></a></li>
+            <li><a title="Twitter" href="https://twitter.com/WEBYBUILD" target="_blank"><i class="lni lni-twitter-filled"></i><span>Twitter</span></a></li>
             <li><a title="Instagram" href="https://www.instagram.com/webybuild/" target="_blank"><i class="lni lni-instagram-filled"></i><span>Instagram</span></a></li>
             <li><a title="LinkedIn" href="https://www.linkedin.com/in/harsh-j-b509b4172/" target="_blank"><i class="lni lni-linkedin-original"></i><span>Linkedin</span></a></li>
         </ul>
@@ -189,10 +187,12 @@
         </div>
     </section>
     <section id="services" class="service-section">
+        <div class="section-title">
+            <h2>Our Services</h2>
+            <hr>
+        </div>
+
         <div class="container">
-            <div class="section-title">
-                <h2>Our Services</h2>
-            </div>
             <div class="inner-container">
                 <div class="service-content">
                     <ul>
@@ -208,18 +208,17 @@
                     </ul>
                     <div class="row">
                         <div class="col-12 align-center">
-                            <div class="explore-all button"> <a href="#getQuote" class="btn">Get Quote</a> </div>
+                            <!-- <div class="explore-all button"> <a href="#getQuote" class="btn">Get Quote</a> </div> -->
                         </div>
                     </div>
                 </div>
                 <div class="service-img">
-                    <img src="./assets/images/hero/web.svg" alt="circle design">
+                    <img style="top: 0;" src="./assets/images/hero/web.svg" alt="circle design">
                     <img src="./assets/images/hero/serv.svg" alt="service image">
                 </div>
             </div>
         </div>
     </section>
-    <hr>
     <section id="our-work">
         <div class="container">
             <div class="row">
@@ -233,6 +232,21 @@
             </div>
             <div class="image_container">
              
+                <div class="port">
+                    <div class="contents front">
+                        <div class="front-image"> <img src="./assets/images/portfolio/holygiene.jpg" alt="holygienehealthcare Landing Page"> </div>
+                        <div class="depth">
+                            <div class="topimg"> <button class="view button wow zoomIn" data-wow-delay=".5s"><i class="lni lni-pointer-top"></i></button> </div>
+                        </div>
+                    </div>
+                    <div class="contents back"> <img src="./assets/images/portfolio/holygiene.jpg" alt="holygienehealthcare Landing Page">
+                        <div class="depth">
+                            <div class="topimg">
+                                <div class="visit"> <a href="https://holygienehealthcare.in/" target="blank" title="holygienehealthcare Landing Page"><i class="lni lni-link"></i></a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="port">
                     <div class="contents front">
                         <div class="front-image"> <img src="./assets/images/portfolio/ferg.jpg" alt="Ferguae Landing Page"> </div>
@@ -430,17 +444,29 @@
                         </div>
                     </div>
                     <div class="contact-des col-lg-6 col-md-5 col-12">
-                        <div class="whatsapp-scan"> <img src="./assets/images/hero/whatsapp.jpg" alt="Whatsapp Scanner Image">
-                            <p>Scan this QR to get quote on whatsapp</p>
-                        </div>
-                        <div class="contact-button">
-                            <p>WEBYBUILD</p>
-                            <p>Contacts: <span>+91-9672862301</span></p>
-                            <p>Email: <span>infowebybuild@gmail.com</span></p>
-                            <p>Whatsapp: <span>+91-8809867438</span></p>
-                            <p>Website: <span>www.webybuild.com</span></p><button class="button"><a href="tel:+919672862301" title="Phone">Call Now</a> </button> <button class="button" title="Email"><a href="mailto:infowebybuild@gmail.com" target="blank">Email</a> </button>
-                            <button class="button"><a href="https://wa.me/+918809867438" target="blank" title="Message">Send Message</a> </button>
-                        </div>
+                            <div class="card">
+                                <div class="photo"></div>
+                                <div class="banner"></div>
+                                <ul style="font-size: 1rem;">
+                                    <li><b>Harsh Jha</b></li>
+                                    <li><b>Founder & Web Developer</b></li>
+                                    <li>Email: hello@webybuild.com</li>
+                    
+                                </ul>
+                                <button class="contact" id="main-button">click to get in touch</button>
+                                <div class="social-media-banner">
+                                    <a href="https://twitter.com/WEBYBUILD" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/webybuild" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/webybuild/" target="_blank" ><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/harsh-j-b509b4172/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                                </div>
+                              <form class="email-form">
+                                    <input id="name" type="text" placeholder="name">
+                                    <input id="email" type="email" placeholder="email">
+                                    <textarea id="comment" type="text" placeholder="Message"></textarea>
+                                    <button class="contact">send</button>
+                              </form>
+                              </div>
                     </div>
                 </div>
             </div>
@@ -457,9 +483,9 @@
                                     <a href="index.html"> <img src="assets/images/logo/weby_logo_bg_removed.png" alt="Logo"> </a>
                                 </div>
                                 <p>WEBYBUILD is a full-service digital marketing agency and an affordable web development company with designers and hustlers who eat, drink & sleep digital design and marketing.</p>
-                                <a class="call" href="tel:+918877115567" title="Phone"><i class="lni lni-phone-set"></i>+91-9672862301, +91-8809867438</a>
+                                <a class="call" href="mailto:hello@webybuild.com" title="Mail"><i class="fa fa-envelope"></i> hello@webuild.com</a>
                                 <div class="payments"> <img src="assets/images/footer/card.png" alt="Payment Card"> </div>
-                                <p class="copyright-text">© 2023 All rights reserved.<br>Designed and Developed by <a href='mailto:infowebybuild@gmail.com' target="_blank" title="Email">WEBYBUILD</a> </p>
+                                <p class="copyright-text">© 2023 All rights reserved.<br> Developed by <a href='mailto:hello@webybuild.com' target="_blank" title="Email">WEBYBUILD</a> </p>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-6 col-12">
@@ -481,7 +507,7 @@
                                     <li><a title="Facebook" href="https://www.facebook.com/webybuild" target="_blank">Facebook</a></li>
                                     <li><a title="Instagram" href="https://www.instagram.com/webybuild/" target="_blank">Instagram</a></li>
                                     <li><a title="Linkedin" href="https://www.linkedin.com/in/harsh-j-b509b4172/" target="_blank">Linkedin</a></li>
-                                    <li><a title="Twitter" href="https://twitter.com/CODECOREX" target="_blank">Twitter</a></li>
+                                    <li><a title="Twitter" href="https://twitter.com/WEBYBUILD" target="_blank">Twitter</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -565,6 +591,33 @@
         }();
         drift.SNIPPET_VERSION = '0.3.1';
         drift.load('n4bi56dv7utc');
+    </script>
+
+    <script>
+        $(document).ready(function()
+{
+    $('.contact').click(function (e) 
+    {
+        $('.card').toggleClass('active');
+        $('.banner').toggleClass('active');
+        $('.photo').toggleClass('active');
+        $('.social-media-banner').toggleClass('active');
+        $('.email-form').toggleClass('active');  
+        var buttonText = $('button.contact#main-button').text();
+        if (buttonText === 'back')
+        {
+            buttonText = 'click to get in touch';
+            $('button.contact#main-button').text(buttonText);
+        }
+        else
+        {
+            buttonText = 'back';
+            $('button.contact#main-button').text(buttonText);
+        }
+    });
+});
+
+
     </script>
 
 </body>
