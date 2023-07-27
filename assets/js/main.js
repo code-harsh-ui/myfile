@@ -73,7 +73,7 @@ function sendmail() {
 
     Email.send({
         SecureToken: "d2d16b86-5e48-45fa-a179-438950376ff2",
-        To: 'infocodecorex@gmail.com',
+        To: 'hello@webybuild.com',
         From: "vampharsh@gmail.com",
         Subject: "Message from Client :- " + name,
         Body: Body
