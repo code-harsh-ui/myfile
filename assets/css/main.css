@@ -2241,6 +2241,7 @@ only screen and (min-width: 1400px) {
     padding: 10px 20px;
     max-height: 350px;
     border-radius: 8px;
+    margin-top: 3rem;
   }
 
   .header .navbar-nav .nav-item {
