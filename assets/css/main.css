@@ -24,7 +24,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(82, 80, 225, 0.644);
+  background-color: rgb(213, 225, 80);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -542,14 +542,14 @@ ul {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: linear-gradient(3deg, rgb(82 80 225 / 93%), transparent);
+  background: linear-gradient(3deg, rgb(215 222 4), transparent);
   left: 0;
   transform: scaleX(0);
   transition: all 0.5s;
 }
 
 .navbar-nav li.active {
-  background: linear-gradient(3deg, rgb(82 80 225 / 93%), transparent);
+  background: linear-gradient(3deg, rgb(215 222 4), transparent);
   padding: 0 26px;
 }
 
@@ -574,31 +574,31 @@ ul {
 }
 
 .header .button .btn {
-  background-color: rgb(82 80 225);
-  color: #dbdbdb;
+  background-color: #e9e9e9;
+  color: #000000;
   font-weight: 400;
   padding: 7px 24px;
 }
 
 .header .button .btn:hover {
   color: #27314f;
-  background-color: #e9e9e9;
+  background-color: rgb(215 222 4);
 }
 
 .hero-area {
   position: relative;
   padding: 160px 0 186px 0;
   z-index: 0;
-  background: url("../images/hero/img.jpg");
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to left, rgb(225 217 27 / 0%), rgb(220 219 18)), url(../images/hero/img-removebg-preview.png);
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 marquee {
   position: fixed;
   z-index: 99;
-  background: linear-gradient(5deg, rgb(0 0 0), rgb(82 80 225 / 92%));
+  background: linear-gradient(5deg, rgb(0 0 0), rgb(215 222 4));
   overflow: hidden;
   width: 100%;
 }
@@ -624,7 +624,7 @@ marquee::before {
   text-transform: uppercase;
   z-index: 1;
   width: 8rem;
-  background: linear-gradient(45deg, #000, #5250e1);
+  background: linear-gradient(45deg, #000, #d7de04);
 }
 
 .hero-area .hero-content {
@@ -639,7 +639,7 @@ marquee::before {
 .hero-area .hero-flex {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .hero-area .hero-flex .responsive {
@@ -762,14 +762,16 @@ marquee::before {
 
 .hero-area .hero-content h1 {
   font-weight: 700;
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 24px;
+  line-height: 80px;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 6px;
 }
 
 .hero-area .hero-content h1 span {
-  color: #b6b8ed;
+  color: #000000;
+  font-size: 5rem;
 }
 
 .hero-area .hero-content p {
@@ -777,14 +779,14 @@ marquee::before {
   font-weight: 400;
   font-size: 16px;
   line-height: 5px;
-  color: #fff;
+  color: #272727;
   margin-top: 20px;
 }
 
 .hero-area .hero-content h5 {
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
   margin-top: 14px;
 }
 
@@ -792,19 +794,21 @@ marquee::before {
   display: inline-block;
   background-color: #fff;
   margin-top: 28px;
-  width: 171px;
+  width: 239px;
   border-radius: 15px;
-  padding: 3px 0;
+  padding: 8px 0px;
 }
 
 .hero-area .hero-content .button a {
   text-align: center;
   display: inline-block;
-  color: #5250e1;
-  font-size: 22px;
+  color: #030303;
+  font-size: 17px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin-left: -7px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .hero-area .hero-content .button a i {
@@ -841,7 +845,7 @@ marquee::before {
 }
 
 .social li:nth-child(1) a {
-  background: #4267b27a;
+  background: #4267b2;
 }
 
 .social li:nth-child(1) a:hover {
@@ -849,7 +853,7 @@ marquee::before {
 }
 
 .social li:nth-child(2) a {
-  background: #1da0f27e;
+  background: #1da0f2;
 }
 
 .social li:nth-child(2) a:hover {
@@ -875,7 +879,7 @@ marquee::before {
 }
 
 .social li:nth-child(4) a {
-  background: #2a70c594;
+  background: #2a70c5;
 }
 
 .social li:nth-child(4) a:hover {
@@ -946,7 +950,7 @@ marquee::before {
 .domain-search .content h2 {
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 51px;
   color: #000;
 }
 
@@ -1050,7 +1054,7 @@ h2 {
 }
 
 .phone_frame_content h2 {
-  background: linear-gradient(45deg, #4f24b9, #1500f552);
+  background: linear-gradient(45deg, #d7de04, #000000);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1058,7 +1062,7 @@ h2 {
 
 .search-form {
   margin-top: -41px;
-  box-shadow: 0 10px 30px #00000063;
+  box-shadow: 0 5px 30px #00000063;
   border-radius: 5px;
   padding: 20px;
 }
@@ -1728,7 +1732,7 @@ h2 {
   width: 150px;
   background-color: white;
   margin: 0 auto;
-  background-image: url("https://i.ibb.co/dLSXbwH/Profile-harsh.png");
+  background-image: url("../images/logo/HarshP.png");
   background-size: 15rem;
   background-position: 56% 13%;
   top: 75px;
