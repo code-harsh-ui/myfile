@@ -212,12 +212,12 @@ ul {
   font-weight: 500;
   display: inline-block;
   margin-bottom: 15px;
-  color: rgb(82 80 225);
+  color: #000000;
   text-transform: capitalize;
 }
 
 .section-title h2 {
-  color: #3c39a0;
+  color: #000000;
   font-size: 30px;
   line-height: 15px;
   text-transform: capitalize;
@@ -999,7 +999,7 @@ marquee::before {
 .domain-search .content .extention-list li a:hover {
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.11);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.11);
-  border-bottom-color: rgb(82 80 225);
+  border-bottom-color: #d7de04;
 }
 
 .domain-search .content .extention-list li a span {
@@ -1264,7 +1264,7 @@ h2 {
   position: absolute;
   z-index: -1;
   top: -89px;
-  opacity: 10%;
+  opacity: 30%;
   left: -161px;
 }
 
@@ -1281,8 +1281,8 @@ h2 {
   text-align: center;
   line-height: 65px;
   display: inline-block;
-  background-color: #006aff11;
-  color: #0069ff;
+  background-color: #d7de04;
+  color: #000000;
   font-size: 26px;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease;
@@ -1934,7 +1934,7 @@ button.contact-social:focus {
 .footer {
   position: relative;
   padding-bottom: 0;
-  background: linear-gradient(45deg, #000, #5250e1);
+  background: linear-gradient(174deg, #000, #d7de04);
 }
 
 .footer .single-footer.f-about {
